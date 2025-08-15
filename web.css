@@ -1,0 +1,104 @@
+/* Universal selector */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+	color: white;
+	background-color: darkred;
+	text-align: center;
+	padding: 15px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+.tagline {
+	font-style: italic;
+}
+
+/* Section title */
+.section-title {
+	color: darkgreen;
+	text-decoration: underline;
+	margin: 20px;
+}
+
+p {
+	padding-left: 20px;
+}
+
+/* Table styling */
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto 20px;
+}
+
+td {
+	text-align: center;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+th {
+	color: white;
+	background-color: #f4a261;
+	text-align: center;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+/* nth-child row colors */
+tr:nth-child(even) {
+	background-color: #d3d3d3;
+}
+
+/* Item names and prices */
+.item-name {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.price {
+	color: darkblue;
+	font-weight: bold;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+	background-color: #ffe5b4;
+	opacity: 0.9;
+}
+
+/* Specials list */
+ul {
+	list-style: square;
+	margin: 20px;
+	padding-left: 40px;
+}
+
+ul li {
+	padding: 5px 0;
+}
+
+ul li:hover {
+	color: darkred;
+}
+
+form {
+	padding-left: 20px;
+}
+
+/* Footer */
+#footer {
+	color: white;
+	background-color: darkred;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}
