@@ -91,7 +91,40 @@ ul li:hover {
 }
 
 form {
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #ffe5b4;
+	border: 2px solid brown;
 	padding-left: 20px;
+}
+
+form label {
+	font-weight: bold;
+	color: darkgreen;
+}
+
+form input,
+form textarea {
+	width: 80%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid darkred;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+form button {
+	background-color: darkred;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+}
+
+form button:hover {
+	background-color: #a30000;
 }
 
 /* Footer */
@@ -102,3 +135,4 @@ form {
 	padding: 10px;
 	margin-top: 20px;
 }
+
